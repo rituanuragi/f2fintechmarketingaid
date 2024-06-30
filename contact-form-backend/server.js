@@ -26,7 +26,7 @@ app.post("/send", (req, res) => {
   const { name, mobile } = req.body;
   const mailOptions = {
     from: "rituanuragi1@gmail.com",
-    to: "marketing@f2fintech.coom",
+    to: "marketing@f2fintech.com",
     subject: `Contact Form Submission`,
     text: `You have a new applicant submission from:
         Name: ${name},
